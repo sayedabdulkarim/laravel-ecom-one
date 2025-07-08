@@ -1,0 +1,3 @@
+run backend - "php artisan serve"
+create controller - php artisan make:controller AuthManager
+run backend - "php artisan migrate"
