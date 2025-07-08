@@ -4,11 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class ProductdetailController extends Controller
 {
     function detail($slug)
     {
-        // echo $slug, $id;
-        return view('category');
+        return view('product-detail');
     }
 }
